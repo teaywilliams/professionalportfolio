@@ -1,0 +1,30 @@
+#navBar {
+  background-color: #f5b7b1;
+}
+
+a {
+  font-family: "Courier New", Courier, monospace;
+  color: rgba(255, 102, 0, 0.842);
+}
+
+.firstImageOfMe {
+  background: url(./imagesforproject/pic2.jpeg) no-repeat;
+  width: 100%;
+
+  height: 1500px;
+  /* background-size: cover; */
+  background-position: right;
+}
+
+.aboutMeHeader {
+  margin-top: 5%;
+  color: rgba(255, 102, 0, 0.842);
+  font-family: "Courier New";
+  text-align: center;
+}
+
+.row {
+  color: #f39289;
+  display: flex;
+  font-family: "Courier New", "Courier New", Courier, monospace;
+}
