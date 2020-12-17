@@ -47,6 +47,10 @@ h5 {
   padding-top: 50px;
 }
 
+.card-deck {
+  /* background-color: rosybrown; */
+}
+
 footer {
   padding-top: 25px;
   font-family: "Courier New", Courier, monospace;
