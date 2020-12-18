@@ -49,67 +49,13 @@ h2 {
 
 #portfolio {
   font-family: "Courier New", Courier, monospace;
-  color: #f39289;
-  padding-top: 30px;
+  color: #ec9c94;
+  padding-top: 25px;
 }
 
 .card {
   border: solid 25px #f5b7b1;
   /* background-color: rosybrown; */
-}
-
-/* a.experience {
-  background-color: rgba(255, 102, 0, 0.842);
-  text-align: center;
-  text-decoration: none;
-  color: #f5b7b1;
-} */
-
-/* https://blog.koalite.com/bbg/ */
-.btn-experience {
-  color: #f5e4b1;
-  background-color: #f5b7b1;
-  border-color: #f5e4b1;
-}
-
-.btn-experience:hover,
-.btn-experience:focus,
-.btn-experience:active,
-.btn-experience.active,
-.open .dropdown-toggle.btn-experience {
-  color: #f5e4b1;
-  background-color: #c27336;
-  border-color: #f5e4b1;
-}
-
-.btn-experience:active,
-.btn-experience.active,
-.open .dropdown-toggle.btn-experience {
-  background-image: none;
-}
-
-.btn-experience.disabled,
-.btn-experience[disabled],
-fieldset[disabled] .btn-experience,
-.btn-experience.disabled:hover,
-.btn-experience[disabled]:hover,
-fieldset[disabled] .btn-experience:hover,
-.btn-experience.disabled:focus,
-.btn-experience[disabled]:focus,
-fieldset[disabled] .btn-experience:focus,
-.btn-experience.disabled:active,
-.btn-experience[disabled]:active,
-fieldset[disabled] .btn-experience:active,
-.btn-experience.disabled.active,
-.btn-experience[disabled].active,
-fieldset[disabled] .btn-experience.active {
-  background-color: #f5b7b1;
-  border-color: #f5e4b1;
-}
-
-.btn-experience .badge {
-  color: #f5b7b1e7;
-  background-color: #f5e4b1;
 }
 
 .textarea {
@@ -130,9 +76,24 @@ fieldset[disabled] .btn-experience.active {
   height: 200px;
 }
 
+h3 {
+  font-size: 40px;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  font-stretch: expanded;
+  color: #f5b7b1;
+}
+.icons {
+  justify-content: space-around;
+  /* margin: 25px; */
+  padding: 25px;
+  font-size: 100px;
+  display: flex;
+}
+
 .submit {
   font-family: "Courier New", Courier, monospace;
-  width: 100px;
+  width: 200px;
   color: rgba(255, 102, 0, 0.842);
   background-color: #f5e4b1;
 }
