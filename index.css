@@ -10,7 +10,7 @@ a {
 .firstImageOfMe {
   background: url(./imagesforproject/pic2.jpeg) no-repeat;
   width: 100%;
-  height: 1500px;
+  height: 800px;
   /* background-size: cover; */
   background-position: right;
   margin-left: auto;
@@ -18,21 +18,27 @@ a {
 }
 
 h5 {
-  padding-top: 400px;
-  padding-left: 400px;
+  padding-top: 300px;
+  padding-left: 300px;
   text-align: right;
   /* margin-top: 200px; */
   color: rgba(255, 102, 0, 0.842);
   font-family: "Courier New";
   font-weight: 700;
-  font-size: 35px;
+  font-size: 25px;
 }
 
 .aboutMeHeader {
-  margin-top: 5%;
+  margin-top: 2%;
   color: rgba(255, 102, 0, 0.842);
   font-family: "Courier New";
   text-align: center;
+  font-size: x-large;
+}
+
+h2 {
+  text-align: center;
+  color: rgba(255, 102, 0, 0.842);
 }
 
 .row {
@@ -44,11 +50,91 @@ h5 {
 #portfolio {
   font-family: "Courier New", Courier, monospace;
   color: #f39289;
-  padding-top: 50px;
+  padding-top: 30px;
 }
 
-.card-deck {
+.card {
+  border: solid 25px #f5b7b1;
   /* background-color: rosybrown; */
+}
+
+/* a.experience {
+  background-color: rgba(255, 102, 0, 0.842);
+  text-align: center;
+  text-decoration: none;
+  color: #f5b7b1;
+} */
+
+/* https://blog.koalite.com/bbg/ */
+.btn-experience {
+  color: #f5e4b1;
+  background-color: #f5b7b1;
+  border-color: #f5e4b1;
+}
+
+.btn-experience:hover,
+.btn-experience:focus,
+.btn-experience:active,
+.btn-experience.active,
+.open .dropdown-toggle.btn-experience {
+  color: #f5e4b1;
+  background-color: #c27336;
+  border-color: #f5e4b1;
+}
+
+.btn-experience:active,
+.btn-experience.active,
+.open .dropdown-toggle.btn-experience {
+  background-image: none;
+}
+
+.btn-experience.disabled,
+.btn-experience[disabled],
+fieldset[disabled] .btn-experience,
+.btn-experience.disabled:hover,
+.btn-experience[disabled]:hover,
+fieldset[disabled] .btn-experience:hover,
+.btn-experience.disabled:focus,
+.btn-experience[disabled]:focus,
+fieldset[disabled] .btn-experience:focus,
+.btn-experience.disabled:active,
+.btn-experience[disabled]:active,
+fieldset[disabled] .btn-experience:active,
+.btn-experience.disabled.active,
+.btn-experience[disabled].active,
+fieldset[disabled] .btn-experience.active {
+  background-color: #f5b7b1;
+  border-color: #f5e4b1;
+}
+
+.btn-experience .badge {
+  color: #f5b7b1e7;
+  background-color: #f5e4b1;
+}
+
+.textarea {
+  padding: 1px 2px;
+  margin: 0;
+}
+
+#contact {
+  border-color: #f5b7b1;
+  width: 1000px;
+}
+
+#textArea {
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  border-color: #f5b7b1;
+  width: 1000px;
+  height: 200px;
+}
+
+.submit {
+  font-family: "Courier New", Courier, monospace;
+  width: 100px;
+  color: rgba(255, 102, 0, 0.842);
+  background-color: #f5e4b1;
 }
 
 footer {

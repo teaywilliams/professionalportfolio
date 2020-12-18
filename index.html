@@ -88,6 +88,7 @@
         <hr>
 
         <div id="portfolio">
+            <h2>PORTFOLIO</h2>
             <div class="card-deck">
                 <div class="card">
                     <a href="https://codepen.io/teaywilliams/pen/NWroxza" target="blank">
@@ -121,7 +122,7 @@
                     </a>
                     <div class="card-body">
                         <h6 class="card-title">API Challenge</h6>
-                        <p class="card-text">The API project to work on our abilities to properly Fetch an API></p>
+                        <p class="card-text">The API project to work on our abilities to properly Fetch an API</p>
                     </div>
                 </div>
             </div>
@@ -147,25 +148,34 @@
             <!-- </div> -->
             <hr>
 
-            <button class="resume" id="resume" a
-                href="https://docs.google.com/document/d/1rix0qIG6lOlhH49v47SlRfBCJqHE1xPQYYrmWvBgwO0/edit">EXPERIENCE</button>
+            <a class="btn btn-link btn-lg btn-block btn-experience experience" id="resume"
+                href="https://docs.google.com/document/d/1rix0qIG6lOlhH49v47SlRfBCJqHE1xPQYYrmWvBgwO0/edit"
+                target="blank">EXPERIENCE</a>
 
             <hr>
 
-            <form id="contact" action="https://formspree.io/f/mrgoyvnz" method="POST">
-                <label>
-                    Your email:
-                    <input type="text" name="_replyto">
-                </label>
-                <label>
-                    Your message:
-                    <textarea name="message"></textarea>
-                </label>
+            <div class="container">
+                <div align="center">
+                    <form class="contact" action="https://formspree.io/f/mrgoyvnz" method="POST">
+                        <div float="right">
+                            <div class="row"><label>
+                                    <b>YOUR EMAIL:</b>
+                                    <input class="col-12" id="contact" type="text" name="_replyto">
+                                </label>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row"><label>
+                                <b>YOUR MESSAGE:</b>
+                                <textarea class="col-12" id="textArea" name="message" rows="1"></textarea>
+                            </label></div>
+                        <br>
+                        <!-- your other form fields go here -->
 
-                <!-- your other form fields go here -->
-
-                <button type="submit">Send</button>
-            </form>
+                        <button class="submit" type="submit"><b>Send</b></button>
+                    </form>
+                </div>
+            </div>
 
 
             <footer>Professional Portfolio by Teayarnna Williams 2020</footer>
