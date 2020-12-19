@@ -18,14 +18,14 @@ a {
 }
 
 h5 {
-  padding-top: 300px;
-  padding-left: 300px;
+  padding-top: 350px;
+  padding-left: 100px;
   text-align: right;
   /* margin-top: 200px; */
   color: rgba(255, 102, 0, 0.842);
   font-family: "Courier New";
-  font-weight: 700;
-  font-size: 25px;
+  font-weight: 250;
+  font-size: 40px;
 }
 
 .aboutMeHeader {
@@ -49,8 +49,8 @@ h2 {
 
 #portfolio {
   font-family: "Courier New", Courier, monospace;
-  color: #ec9c94;
-  padding-top: 25px;
+  color: #f5938a;
+  padding-top: 15px;
 }
 
 .card {
@@ -60,7 +60,7 @@ h2 {
 
 .textarea {
   padding: 1px 2px;
-  margin: 0;
+  margin: 2;
 }
 
 #contact {
@@ -84,6 +84,7 @@ h3 {
   color: #f5b7b1;
 }
 .icons {
+  padding-top: 20px;
   justify-content: space-around;
   /* margin: 25px; */
   padding: 25px;
